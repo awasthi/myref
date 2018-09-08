@@ -1,0 +1,190 @@
+\documentclass{article}
+
+
+
+\title{Design \& Analysis of Modified Conditional Data
+	Mapping Flip-Flop to }
+\author{Soni Singh \and Himani Mittal \and Third Author 
+}
+
+%\date{}
+
+
+\begin{document}
+	
+	\maketitle
+	
+	 \begin{abstract}
+ 	
+ 	In the history, the major issues of the VLSI designer were area, cost, performance, and reliability; power concern was
+ 	typically of only lesser
+ 	importance. But more than the last few years’ power in the circuit is the major difficulty at the present days which
+ 	is being faced by the very large scale integration industries. The power dissipation in 
+ 	several circuits is typically take place by the
+ 	clocking system which includes the clock distribution system and sequential elements (flip flops and latches) in it. The quantity of power
+ 	dissipation by any clock distribution system and sequential circuit in any chip is as regards of 30\% to 60\% of the overall chip power
+ 	dissipation by the 
+ 	circuit. Clock is the most vital signal present in the chip. Clock signals are synchronizing signals which offer timing
+ 	references 
+ 	for computation of in the least work in synchronous digital systems. In this paper the power of the sequential circuit is 
+ 	reduced which in position reduce the on the whole power of the chip. Here dissimilar low power techniques for the lowering static power
+ 	dissipation are second-hand in the sequential circuit are surveyed. The work analyses the power consumption and propagation delay of flip- flop designs. In Tanner CMOS technology designs are implemented.
+ 	
+	 \end{abstract}
+	
+\section{Introduction}	
+	In the past, the major concerns of the VLSI designer were
+	area, performance, cost and reliability. Power consideration
+	was mostly of only secondary importance. In recent years,
+	however, this has begun to change and, increasingly, power
+	is being given comparable weight to area and speed
+	considerations. One of the important factors is that excessive
+	power Consumption is becoming the limiting factor in integrating
+	more transistors on a single chip or on a multiple-chip
+	module. 
+	
+	\[
+	\frac{d^2y}{dx^2} + \mu \alpha \frac{dy}{dx}  = 45
+		\]
+	
+	\[ x^{y^{z^2}}  \sum_{i=0}^{\infty} x^2\]
+	
+	
+	Power consumption is dramatically reduced; the
+	resulting heat will limit the feasible packing and
+	performance of VLSI circuits and systems. Most of the
+	current designs are synchronous which implies that flipflops
+	and latches are involved in one way or another in the
+	data and control paths. One of the challenges of low power
+	methodologies for synchronous systems is the power
+	consumption of the flip-flops and latches. 
+	
+	Flip-Flops and latches are the basic elements for storing
+	information. One latch or Flip-Flop can store one bit of
+	information. The main difference between latches and flipflops
+	is that for latches, their outputs are constantly affected
+	by their inputs as long as the enable signal is asserted. In
+	other words, when they are enabled, their content changes
+	immediately when their input change. Flip-flops, on the
+	other hand, have their content change only either at the
+	rising or falling edge of the enable signal. This enable signal
+	is usually the controlling clock signal. After the rising or
+	falling edge of the clock, the flip-flop content remains
+	constant even. There are basically four main types of latches
+	and flip-flops: SR, D, JK, and T. For each type, there are
+	also different variations that enhance their operations. Figure
+	1(a), (b) illustrates the difference between positive edge
+	triggered flip flop and an active high latch. At the same time
+	as it can be seen in this figure, likely changes of input can be
+	seen at the output of the latch as it is transparent. 
+	The presentation of a flip-flop is calculated by three main
+	timings and delays: propagation delay (Clock-to-Output),
+	setup time and hold time. Setup time and hold time define
+	the connection between the clock and input data as shown in
+	the Figure 1(c). Setup time and hold time explain the timing
+	necessities on the D input of a Flip-Flop with admiration to
+	the Clk input. Setup and hold time describe a window of
+	time which the D input have to be valid and stable in order
+	to guarantee valid data on the Q output. Setup Time (Tsu)
+	Setup time is the time that the D input must be valid before
+	the Flip-Flop samples. Hold Time (Th) – Hold time is the
+	time that D input must be maintained suitable after the FlipFlop
+	samples. Propagation Delay (Tpd) – Propagation delay
+	is the time that takes to the sampled D input to propagate to
+	the Q productivity. 
+
+	
+	 There is a broad collection of flip-flops in the journalism \cite{designZhao2011}. Many modern microprocessors selectively employ
+	 master-slave and pulsed-triggered flip-flops \cite{EfficientUmadevi2013}.
+	 Conventional master-slave single-edge flip-flops, for
+	 illustration, transmission gated flip-flop [3], are completed
+	 up of two stages, one master and one slave. One more edgetriggered
+	 flip-flop is the sense amplifier-based flip-flop
+	 (SAFF) [4]. Every one of these hard edged-flip-flops is
+	 characterized by means of a positive setup time; cause large
+	 D-to-Q delays. On the other hand, pulse-triggered flip-flops
+	 reduce the two stages into one stage and are characterized by
+	 the soft edge possessions. 95% of all static timing latching
+	 on the Itanium 2 processor employs pulsed clocking [5].
+	 Pulse triggered flip-flops might be classify into two types,
+	 implicit-pulsed and explicit-pulsed, for illustration, the
+	 implicit pulse-triggered data-close-to-output flip-flops (ipDCO)
+	 [6] and the explicit pulse-triggered data-close-tooutput
+	 flip-flops (ep-DCO) [6]. The relationship between
+	 Conventional Conditional Data Mapping Flip-flop and
+	 Clock Pair Shared D flip flop (CPSFF) here we are
+	 examination the working of CDMFF and the conventional D
+	 Flip-flop [7]. CDMFFs for low-power and high-performance
+	 flip-flops, namely conditional data mapping flip-flops
+	 (CDMFFs), which reduce their dynamic power by mapping
+	 their inputs to a arrangement that eliminates redundant
+	 internal transitions. We nearby two CDMFFs, having
+	 differential and single-ended structures, correspondingly,
+	 and contrast them to the state-of-the-art flip-flops. It is vital
+	 to save power in these flip-flops and latches with no
+	 compromising state integrity or performance [8]. High speed
+	 parallel counter is scheming to get high operating frequency
+	 and to reduce the power consumption, and it can be achieved
+	 from side to side a novel pipeline portioning technology [9].
+	 The contrast between Conventional Conditional Data
+	 Mapping Flip-flop and Clock Pair Shared D flip flop
+	 (CPSFF) here we are checking the working of CDMFF and
+	 the conventional D Flip-flop.
+	 
+	 Due to the immense growth in nanometer technology [10], A
+	 low power pulse triggered Flip-flop (P-FF) design is done by
+	 the pulse generation control logic, an AND function, is
+	 uninvolved from the critical path to facilitate a faster
+	 discharge operation. A conditional pulse enhancement
+	 technique is devised to speed up the discharge the length of
+	 the critical path only when needed [11].
+\section{Surveyed Low Power Flip Flop Design
+	Techniques}
+	Power consumption is depends on more than a few factors,
+	the total power is sum of dynamic, short circuit and leakage
+	power dissipation. Dynamic power indulgence is function of
+	frequency, supply voltage, data activity. Based on these
+	factors, there are a variety of ways to lower the power
+	consumption shown as follows.
+	
+\subsection{Double Edge Triggering}
+    By means of half frequency on
+	the clock distribution network will save just about half of the
+	power consumption on the clock distribution network. On
+	the other hand the flip-flop must be able to be double clock
+	edge triggered.
+	For example, the clock division shared implicit pulsed flipflop
+	(CBS-ip DEFF), is a double edge triggered flip-flop.
+	Double clock edge triggering technique reduces the power
+	by falling frequency f in equation.
+
+\subsection{Using a low swing voltage} on top of the clock
+	distribution network can diminish the clocking power
+	consumption since power is a quadratic function of voltage.
+	To use low swing clock sharing, the flip-flop should be a
+	low swing flip- flop.
+	For example, low swing double-edge flip-flop (LSDFF)
+	is a low swing flip-flop. In adding up, the level converter
+	flip-flop is a natural applicant to be used in low swing
+	atmosphere too. For example, CD-LCFF-ip might be
+	used as a low swing flip-flop since received signals only
+	make nMOS transistors. The low swing technique
+	reduces the power utilization by declining voltage in
+	equation. 
+\section{Conclusion}
+We bring to a close this paper by exactness an significant set
+of guiding principle which are the curve stone for low power
+flip-flop drawing methodology and low power flip-flop
+simulation .In general, low power design for combinational
+and sequential circuits is an main field and gaining more
+significance as time goes by and will continue an vital area
+of investigate for a long time. We have accessible a survey
+and evaluation of low-power flip-flop circuits. Our new
+results enabled us to recognize the power and show tradeoffs
+of the flip-flop design. Read Book \cite{StatAmit2018}\cite{NoUma2013}.
+
+\bibliographystyle{plain}
+\bibliography{myref}
+
+
+\end{document}
